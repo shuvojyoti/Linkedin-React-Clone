@@ -4,8 +4,8 @@ import "./Sidebar.css";
 
 function Sidebar() {
   const recentItem = (topic) => (
-    <div className="sidebar_recentItem">
-      <span className="sidebar_hash">#</span>
+    <div className="sidebar__recentItem">
+      <span className="sidebar__hash">#</span>
       <p>{topic}</p>
     </div>
   );
